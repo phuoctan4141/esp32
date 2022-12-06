@@ -1,0 +1,42 @@
+menu "HTTP Connection Configuration"
+
+    orsource "$IDF_PATH/examples/common_components/env_caps/$IDF_TARGET/Kconfig.env_caps"
+
+    config WEB_SERVER
+        string "WEB SERVER"
+        default "api.openweathermap.org"
+        help
+            WEB SERVER.
+    
+    config WEB_PORT
+        string "WEB PORT"
+        default "80"
+        help
+            WEB PORT.
+
+    config WEB_URL
+        string "WEB URL"
+        default "http://api.openweathermap.org/data/2.5/weather"
+        help
+            WEB URL.
+
+    config LAT
+        string "Latitude"
+        default "10.699268"
+        help
+            Latitude.
+    
+    config LON
+        string "Longitude"
+        default "105.117681"
+        help
+            Longitude.
+    
+    config OPENWEATHERMAP_API_KEY
+        string "OPENWEATHERMAP API KEY"
+        default "26594138afb8818b4b282af47a43f43d"
+        help
+            OPENWEATHERMAP API KEY
+      
+
+endmenu
