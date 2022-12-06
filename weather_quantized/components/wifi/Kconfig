@@ -1,0 +1,26 @@
+menu "Wi-Fi Connection Configuration"
+
+    orsource "$IDF_PATH/examples/common_components/env_caps/$IDF_TARGET/Kconfig.env_caps"
+
+    config WIFI_SSID
+        string "WiFi SSID"
+        default "Thao"
+        help
+            SSID (network name) for the example to connect to.
+    
+    config WIFI_PASSWORD
+        string "WiFi Password"
+        default "13ThiThao"
+        help
+            WiFi password (WPA or WPA2) for the example to use.
+            Can be left blank if the network has no security set.
+
+    config WIFI_CONN_MAX_RETRY
+        int "Maximum retry"
+        default 5
+        help
+            Set the Maximum retry to avoid station reconnecting to the AP unlimited,
+            in case the AP is really inexistent.
+
+
+endmenu

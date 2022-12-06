@@ -1,0 +1,30 @@
+{
+    "C_Cpp.intelliSenseEngine": "Tag Parser",
+    "idf.adapterTargetName": "esp32",
+    "idf.customExtraPaths": "/home/ubuntu/.espressif/tools/xtensa-esp32-elf/esp-2021r2-patch5-8.4.0/xtensa-esp32-elf/bin:/home/ubuntu/.espressif/tools/xtensa-esp32s2-elf/esp-2021r2-patch5-8.4.0/xtensa-esp32s2-elf/bin:/home/ubuntu/.espressif/tools/xtensa-esp32s3-elf/esp-2021r2-patch5-8.4.0/xtensa-esp32s3-elf/bin:/home/ubuntu/.espressif/tools/riscv32-esp-elf/esp-2021r2-patch5-8.4.0/riscv32-esp-elf/bin:/home/ubuntu/.espressif/tools/esp32ulp-elf/2.35_20220830/esp32ulp-elf/bin:/home/ubuntu/.espressif/tools/cmake/3.23.1/bin:/home/ubuntu/.espressif/tools/openocd-esp32/v0.11.0-esp32-20220706/openocd-esp32/bin:/home/ubuntu/.espressif/tools/ninja/1.10.2",
+    "idf.customExtraVars": "{\"OPENOCD_SCRIPTS\":\"/home/ubuntu/.espressif/tools/openocd-esp32/v0.11.0-esp32-20220706/openocd-esp32/share/openocd/scripts\"}",
+    "idf.espIdfPath": "/home/ubuntu/esp/esp-idf",
+    "idf.openOcdConfigs": [
+        "board/esp32-wrover-kit-3.3v.cfg"
+    ],
+    "idf.pythonBinPath": "/home/ubuntu/.espressif/python_env/idf4.4_py3.8_env/bin/python",
+    "idf.toolsPath": "/home/ubuntu/.espressif",
+    "files.associations": {
+        "jsmn.h": "c",
+        "esp_wifi.h": "c",
+        "esp_http_client.h": "c",
+        "string": "c",
+        "string.h": "c",
+        "*.inc": "c",
+        "wifi.h": "c",
+        "nvs_flash.h": "c",
+        "esp_system.h": "c",
+        "http.h": "c",
+        "array": "c",
+        "string_view": "c",
+        "all_ops_resolver.h": "c"
+    },
+    "git.ignoreLimitWarning": true,
+    "idf.flashType": "UART",
+    "idf.port": "/dev/ttyUSB0"
+}
